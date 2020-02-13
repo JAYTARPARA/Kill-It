@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "323553049251",
+    "firebase_url": "https://kill-it-flutter.firebaseio.com",
+    "project_id": "kill-it-flutter",
+    "storage_bucket": "kill-it-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323553049251:android:06823869462527061c5d16",
+        "android_client_info": {
+          "package_name": "com.KillIt.TapIt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323553049251-9g5rpep27av8saif7e69ltvrm7i67of8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATPxmXASbi0ywi2ExZyGoQwI1FrVV8qrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323553049251-9g5rpep27av8saif7e69ltvrm7i67of8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
