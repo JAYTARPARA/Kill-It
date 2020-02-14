@@ -52,15 +52,17 @@ class GameController extends Game {
 
   void render(Canvas c) {
     Rect background = Rect.fromLTWH(0, 0, screenSize.width, screenSize.height);
-    Paint backgroundPaint = Paint()..color = Color(0xFFFAFAFA);
+    // Paint backgroundPaint = Paint()..color = Color(0xFFFAFAFA);
+    // Paint backgroundPaint = Paint()..color = Color(0xFFFFE082);
+    Paint backgroundPaint = Paint()..color = Color(0xFFAED581);
     c.drawRect(background, backgroundPaint);
 
     player.render(c);
 
     if (state == State.menu) {
       startText.render(c);
-      infoText.render(c);
       highscoreText.render(c);
+      infoText.render(c);
     } else if (state == State.playing) {
       enemies.forEach((Enemy enemy) => enemy.render(c));
       scoreText.render(c);

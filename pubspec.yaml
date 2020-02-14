@@ -1,5 +1,5 @@
 name: KillIt
-description: Kill It - Tap to Kill Enemy.
+description: Kill It - Tap to Kill Enemy. Games, Puzzle, kill it, kill it buddy, tap me, tap it, game, latest game.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -11,7 +11,7 @@ description: Kill It - Tap to Kill Enemy.
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
 # Read more about iOS versioning at
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.0+2
+version: 1.0.0+4
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
@@ -26,7 +26,7 @@ dependencies:
   flame: ^0.18.1
   shared_preferences: ^0.5.6+1
   flutter_launcher_icons: ^0.7.3
-  firebase_messaging: ^6.0.9
+  onesignal_flutter: ^2.3.3
 
 dev_dependencies:
   flutter_test:
