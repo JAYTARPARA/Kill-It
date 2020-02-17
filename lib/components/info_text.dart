@@ -23,7 +23,7 @@ class InfoText {
     painter.text = TextSpan(
       text: 'HOW TO PLAY \n \n Click on red enemy 3 times to kill them.\n Otherwise they kill you.',
       style: TextStyle(
-        color: Colors.red,
+        color: Color(0xFFF44336),
         fontSize: 20.0,
         fontWeight: FontWeight.w400,
       ),

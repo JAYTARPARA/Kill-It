@@ -23,7 +23,7 @@ class StartText {
     painter.text = TextSpan(
       text: 'Touch screen to start',
       style: TextStyle(
-        color: Colors.black,
+        color: Color(0xFF000000),
         fontSize: 30.0,
         fontWeight: FontWeight.bold,
       ),
