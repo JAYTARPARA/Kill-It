@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:ui';
 
 import 'package:KillIt/game_controller.dart';
+import 'package:flutter/material.dart';
 
 class Player {
   final GameController gameController;
